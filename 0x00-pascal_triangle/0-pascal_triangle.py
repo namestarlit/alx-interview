@@ -6,6 +6,8 @@ For details about what a Pascal's Triangle is visit
 ref: https://en.wikipedia.org/wiki/Pascal%27s_triangle
 
 """
+
+
 def pascal_triangle(n: int):
     """Prints a Pascal's Triangle
 
