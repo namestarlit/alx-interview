@@ -6,7 +6,7 @@ const movieID = process.argv[2];
 const movieURL = `https://swapi-api.alx-tools.com/api/films/${movieID}`;
 
 function sendRequest (characterList, index) {
-  if (characterList.length == index) {
+  if (characterList.length === index) {
     return;
   }
 
